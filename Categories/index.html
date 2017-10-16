@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+
+    <link href="Content/site.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/angular-animate.js"></script>
+    <script src="Scripts/angular-aria.js"></script>
+    <script src="Scripts/angular.treeview.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="app/app.js"></script>
+    <script src="app/controllers/RouteController.js"></script>
+    <script src="app/controllers/categories.js"></script>
+</head>
+<body ng-app="myApp">
+    <div>
+        <div ng-cloak layout="row" layout-align="center" layout-wrap>
+            <md-content class="md-padding" flex="66">
+                <div class="ext-content" layout-padding>
+                    <div ng-view></div>
+                </div>
+            </md-content>
+        </div>
+        <hr />
+    </div>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/jquery.validate-vsdoc.js"></script>
+    <script src="Scripts/jquery.validate.js"></script>
+    <script src="Scripts/jquery.validate.min.js"></script>
+    <script src="Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="Scripts/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
+

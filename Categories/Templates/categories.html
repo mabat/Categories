@@ -1,0 +1,16 @@
+﻿<div>
+    <div class="upload">
+        <input class="browse-upload" type="file" id="file" name="file"
+               onchange="angular.element(this).scope().getFileDetails(this)" />
+
+        <input type="button" ng-click="uploadFiles()" value="Upload" />
+    </div>
+    <hr />
+    <div data-angular-treeview="true"
+         data-tree-id="abc"
+         data-tree-model="model"
+         data-node-id="CathegoryID"
+         data-node-label="Name"
+         data-node-children="Children">
+    </div>
+</div>
